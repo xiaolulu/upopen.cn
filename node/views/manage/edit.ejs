@@ -1,0 +1,23 @@
+<% include ../common/header.ejs %>
+
+<div class="container">
+<div id="articleBox" class="articleBox">
+
+</div>
+<form id="form">
+	<select id="kind"></select><br />
+	<input type="text" placeHolder="标题" id="title" /><br />
+	<textarea type="text" placeHolder="描述" id="description" style="width:700px;height: 50px" /></textarea><br />
+	<input type="text" placeHolder="作者" id="author" /><br />
+	<input type="text" placeHolder="标签" id="tag" /><br />
+	<label for="disabled">禁用<input type="checkbox" name="desabled" id="disabled" /><br />
+	<input type="text" placeHolder="排序" id="sort" /><br />
+	<input type="text" placeHolder="热度" id="hot" /><br />
+	<label>
+		<span>内容</span>
+		<textarea id="content" style="height:200px;width:700px"></textarea>
+	</label><br />
+	<button type="submit" value="提交">提交</button>
+</form>
+</div>
+<% include ../common/footer.ejs %>

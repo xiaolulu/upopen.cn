@@ -1,0 +1,19 @@
+<% include ../common/header.ejs %>
+<link href="<%= basePath %>/public/css/markdown.css" type="text/css" rel="stylesheet" >
+<section class="col-md-10" id="articleInfo">
+    <h1 id="title" class="articleInfo_title"></h1>
+	<span id="date" class="articleInfo_date"></span><span id="kind" class="articleInfo_kind"></span><span id="author" class="articleInfo_author"></span>
+	<div id="content" class="articleInfo_content clearfix markdown"></div>
+    <div id="talkBox" class="talkBox">
+        共收到<tt id="talkAmount">0</tt>条回复：
+
+    </div>
+    <form id="form">
+        <label>
+	        <textarea id="talkcontent" placeHolder="评论内容200字" maxLength="200" style="width: 700px;padding: 10px" rows="5"></textarea>
+        </label>
+        <button type="submit" value="提交" style="width: 100px;height: 30px; margin: 20px 300px;">提交</button>
+    </form>
+</section>
+<% include ../common/kind.ejs %>
+<% include ../common/footer.ejs %>

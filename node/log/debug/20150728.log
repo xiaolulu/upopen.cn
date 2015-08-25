@@ -1,0 +1,266 @@
+[2015-07-28 14:33:13.685] [INFO] logInfo - server start3000
+[2015-07-28 14:33:17.722] [INFO] logInfo - server start3000
+[2015-07-28 14:57:12.719] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 15:41:08.516] [INFO] logInfo - server start3000
+[2015-07-28 15:41:15.167] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 15:41:16.448] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 15:42:56.251] [INFO] logInfo - server start3000
+[2015-07-28 15:43:06.881] [INFO] logInfo - server start3000
+[2015-07-28 15:43:12.333] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-07-28 15:43:12.638] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:12.657] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:12.661] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-07-28 15:43:13.896] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 15:43:16.815] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 15:43:17.102] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:17.107] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:19.539] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:43:19.867] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:19.869] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:29.671] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 15:43:29.986] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:30.002] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:32.540] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:43:32.932] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:32.957] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:47.260] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-07-28 15:43:47.607] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:47.613] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:47.620] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-07-28 15:43:47.640] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:43:51.661] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:43:52.028] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:43:52.034] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:46:57.312] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:46:57.672] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:46:57.677] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:29.303] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-07-28 15:47:29.675] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:47:29.677] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:29.696] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-07-28 15:47:29.711] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:40.167] [INFO] logInfo - /addTalk:::::::::::::POST
+[2015-07-28 15:47:41.944] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-07-28 15:47:42.282] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:47:42.290] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:42.291] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-07-28 15:47:42.309] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:51.715] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:47:51.715] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:53.158] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:47:53.435] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:47:53.469] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:56.771] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:47:56.774] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:47:56.777] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-07-28 15:47:56.787] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:50:43.708] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-07-28 15:50:44.061] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:50:44.064] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:50:44.069] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-07-28 15:50:44.088] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:50:48.775] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:50:49.144] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:50:49.150] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:50:49.151] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:50:50.121] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:50:50.506] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:50:50.511] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:50:50.512] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:51:44.268] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 15:51:44.366] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:51:44.372] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:51:46.331] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:51:46.465] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:51:46.466] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:51:46.471] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:51:52.960] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:51:53.419] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:51:53.421] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:51:53.422] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:52:17.012] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:52:17.407] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:52:17.409] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:52:32.131] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:52:45.567] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:52:45.992] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:52:45.996] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:52:49.337] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:52:51.241] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:52:51.724] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:52:51.729] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:53:17.183] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:53:18.703] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:53:19.145] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:53:19.151] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:54:52.901] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:54:54.468] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:54:55.302] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:54:55.306] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:55:37.954] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:55:39.255] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:55:39.745] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:55:39.769] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:56:33.485] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:56:34.827] [INFO] logInfo - /article/info/55b1f40eb5d8faf227000001:::::::::::::GET
+[2015-07-28 15:56:35.330] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:56:35.335] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:56:52.605] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:56:57.718] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:56:57.721] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:56:58.830] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 15:56:58.944] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:56:58.948] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:56:58.956] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:57:08.419] [INFO] logInfo - /article/info:::::::::::::GET
+[2015-07-28 15:57:08.493] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 15:57:08.495] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:57:08.498] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-07-28 15:57:08.513] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 15:57:17.308] [INFO] logInfo - server start3000
+[2015-07-28 16:19:04.210] [INFO] logInfo - server start3000
+[2015-07-28 16:19:14.468] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 16:21:05.821] [INFO] logInfo - server start3000
+[2015-07-28 16:21:11.305] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-07-28 16:21:25.160] [INFO] logInfo - server start3000
+[2015-07-28 16:21:27.709] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-07-28 16:21:28.062] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 16:21:28.082] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 16:21:28.087] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-07-28 16:21:29.441] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:21:46.620] [INFO] logInfo - server start3000
+[2015-07-28 16:21:49.400] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:22:03.758] [INFO] logInfo - server start3000
+[2015-07-28 16:22:09.799] [INFO] logInfo - server start3000
+[2015-07-28 16:22:13.314] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:22:41.918] [INFO] logInfo - server start3000
+[2015-07-28 16:22:43.857] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:22:50.415] [INFO] logInfo - server start3000
+[2015-07-28 16:22:51.846] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:23:09.569] [INFO] logInfo - server start3000
+[2015-07-28 16:23:11.865] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:23:39.081] [INFO] logInfo - server start3000
+[2015-07-28 16:23:40.851] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:24:53.090] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 16:24:53.504] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 16:24:53.506] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 16:24:54.259] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 16:25:05.922] [INFO] logInfo - server start3000
+[2015-07-28 16:25:06.996] [INFO] logInfo - server start3000
+[2015-07-28 16:25:19.104] [INFO] logInfo - server start3000
+[2015-07-28 16:25:23.002] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 16:26:03.681] [INFO] logInfo - server start3000
+[2015-07-28 16:26:11.219] [INFO] logInfo - server start3000
+[2015-07-28 18:15:22.385] [INFO] logInfo - /article/list/nodejs:::::::::::::GET
+[2015-07-28 18:23:49.139] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:24:17.773] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:24:20.166] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:24:40.210] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:25:58.974] [INFO] logInfo - server start3000
+[2015-07-28 18:26:36.902] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-07-28 18:26:37.125] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:26:37.150] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:26:37.158] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-07-28 18:26:38.556] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:35:59.267] [INFO] logInfo - server start3000
+[2015-07-28 18:36:06.258] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:36:14.543] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:37:05.688] [INFO] logInfo - server start3000
+[2015-07-28 18:37:09.329] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:37:22.568] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:37:26.965] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 18:37:27.145] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:37:27.152] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:37:27.157] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:37:30.966] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-07-28 18:37:31.371] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:37:31.378] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:37:37.157] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:37:39.405] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:37:39.816] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:37:39.821] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:37:42.108] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:37:42.689] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:37:42.693] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:37:50.740] [INFO] logInfo - server start3000
+[2015-07-28 18:38:53.506] [INFO] logInfo - server start3000
+[2015-07-28 18:39:01.053] [INFO] logInfo - server start3000
+[2015-07-28 18:39:08.749] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:39:15.530] [INFO] logInfo - /article/info/55b5c696b0de58731a000001:::::::::::::GET
+[2015-07-28 18:39:16.056] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:39:16.065] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:39:18.337] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:39:24.582] [INFO] logInfo - /article/info/55b5c696b0de58731a000001:::::::::::::GET
+[2015-07-28 18:39:24.956] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:39:24.960] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:39:24.974] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:39:29.036] [INFO] logInfo - server start3000
+[2015-07-28 18:39:52.299] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:39:52.633] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:39:52.648] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:39:54.650] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:39:54.957] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:39:54.969] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:40:08.976] [INFO] logInfo - server start3000
+[2015-07-28 18:40:13.303] [INFO] logInfo - server start3000
+[2015-07-28 18:40:17.248] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:40:46.483] [INFO] logInfo - server start3000
+[2015-07-28 18:40:47.860] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-07-28 18:40:48.061] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:40:48.071] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:40:48.085] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-07-28 18:40:49.295] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:40:57.256] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:40:57.507] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:40:57.516] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:40:58.409] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:40:58.696] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:40:58.707] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:41:01.565] [INFO] logInfo - /article/info/55b5c696b0de58731a000001:::::::::::::GET
+[2015-07-28 18:41:01.884] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:41:01.902] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:41:01.905] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:41:38.371] [INFO] logInfo - server start3000
+[2015-07-28 18:41:39.679] [INFO] logInfo - server start3000
+[2015-07-28 18:42:01.382] [INFO] logInfo - server start3000
+[2015-07-28 18:43:42.157] [INFO] logInfo - server start3000
+[2015-07-28 18:43:47.206] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:44:08.063] [INFO] logInfo - server start3000
+[2015-07-28 18:44:18.478] [INFO] logInfo - /article/info/55b5c696b0de58731a000001:::::::::::::GET
+[2015-07-28 18:44:18.827] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:44:18.852] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:18.858] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:21.170] [INFO] logInfo - /article/info/55b5c696b0de58731a000001:::::::::::::GET
+[2015-07-28 18:44:21.479] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:44:21.485] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:21.487] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:23.312] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:44:23.579] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:44:23.580] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:25.502] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:44:25.845] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:44:25.848] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:27.205] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:44:27.467] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:44:27.471] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:44:29.447] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:44:48.934] [INFO] logInfo - server start3000
+[2015-07-28 18:44:57.536] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:44:57.822] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:44:57.845] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:45:00.807] [INFO] logInfo - /article/info/55b5c696b0de58731a000001:::::::::::::GET
+[2015-07-28 18:45:01.100] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:45:01.106] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:45:01.134] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:45:02.638] [INFO] logInfo - /:::::::::::::GET
+[2015-07-28 18:45:05.638] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:45:05.922] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:45:05.925] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-07-28 18:45:09.088] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:45:33.471] [INFO] logInfo - server start3000
+[2015-07-28 18:45:39.263] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:46:39.992] [INFO] logInfo - server start3000
+[2015-07-28 18:46:44.084] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-07-28 18:46:46.810] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-07-28 18:46:47.219] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-07-28 18:46:47.223] [INFO] logInfo - /fetchTalk:::::::::::::GET

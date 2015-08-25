@@ -1,0 +1,51 @@
+.articleBox{
+	background: #fff;
+	width: 730px;
+	border-right: 1px solid #c4c4c4;
+	min-height: 700px;
+}	
+
+.articleItem{
+	padding: 10px 30px 10px 40px;
+	position: relative;
+	background: url( ./imgs/content_text_line.png ) bottom left no-repeat;
+}
+
+.articleNum{
+	position: absolute;
+	top: 10px;
+	left: 5px;
+	font-size: 60px;
+	text-align: center;
+	color: #afafaf;
+	width: 23px;
+	transform: rotate(10deg);
+	height: 60px;
+	overflow: hidden;
+	line-height: 1;
+}	
+
+.articleTitle{
+	font-size: 18px;
+	border-bottom: 1px solid #ddd;
+	line-height: 2;
+}
+
+.articleAuthor{
+	color: #b2b2b2;
+}
+
+.articleDate{
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #ddd;
+	color: #b2b2b2;
+}
+
+.articleLink{
+	float: right;
+	color: #333;
+	text-decoration: underLine;
+}
+
+/

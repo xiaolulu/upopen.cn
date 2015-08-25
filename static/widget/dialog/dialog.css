@@ -1,0 +1,92 @@
+.w_dialog{
+	width: 260px;
+	height: 160px;
+	background: #fff;
+	position: fixed;
+	left: 50%;
+	top: 45%;
+	margin-left: -150px;
+	margin-top: -80px;
+	box-shadow: 0px 0px 10px #898585;
+	border: 4px solid #e6e6e6;
+	z-index: 199;
+	display: none;
+	padding: 0 10px 10px 10px;
+}
+
+.w_dialog_header{
+	height: 46px;
+	line-height: 50px;
+	font-size: 16px;
+	border-bottom: 1px solid #b3b3b3;
+	padding-left: 40px;
+	background: url( ./imgs/dialog.png ) 5px 0 no-repeat;
+}
+
+.w_dialog_prompt .w_dialog_header{
+	color: #33c2b9;
+	background-position: 5px -45px;
+}
+
+.w_dialog_warning .w_dialog_header{
+	color: #f7931e;
+	background-position: 5px -89px;
+}
+
+.w_dialog_error .w_dialog_header{
+	color: #ed1c24;
+	background-position: 5px 0;
+}
+
+.w_dialog_body{
+	padding: 30px 5px;
+}
+
+.w_dialog_content{
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.w_dialog_footer{
+	height: 24px;
+	bottom: 10px;
+	position: absolute;
+	right: 0px;
+}
+
+.w_dialog_btn{
+	background: #33c2b9;
+	border: 1px solid #33c2b9; 
+	color: #fff;
+	float: left;
+	width: 125px;
+	height: 24px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.w_dialog_btn_cancel{
+	color: #33c2b9;
+	background: #fff;
+}
+
+.w_dialog_prompt .w_dialog_btn, .w_dialog_error .w_dialog_btn{
+	margin-right: 80px;
+}
+
+.w_dialog_prompt .w_dialog_btn_cancel, .w_dialog_error .w_dialog_btn_cancel{
+	display: none;
+}
+
+.w_dialog_mask{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	background: rgba( 255, 255, 255, .8 );
+	background: #fff;
+	opacity: .8;
+	filter: alpha( opacity = 80 );
+	display: none;
+	z-index: 190;
+}

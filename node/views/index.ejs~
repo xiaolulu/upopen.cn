@@ -1,0 +1,81 @@
+<% include ./common/header.ejs %>
+<div class="banner">
+	<img src="/module/index/imgs/banner.png" />
+</div>
+<div class="notice"></div>
+
+<div class="container">
+	<div class="sideBox">
+		<div class="sideAD"></div>
+	</div>
+	<div class="productBox">
+		<div class="tools">
+			<div class="sort"><a href="#">示例列表</a></div>
+			<div class="type hide">
+				<ul>
+					<li class="list"><a href="#">列表模式</a></li>
+					<li class="pic current"><a href="#">图片模式</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="productEl">
+			<div class="productElPic">
+				<a href="http://www.upopen.cn:8080/" target="_blank"><img src="/module/index/imgs/pic_tank.png" /></a>
+			</div>
+			<div class="productElIcon">
+				<img src="/module/index/imgs/icon_tank.png" />
+			</div>
+			<div class="productElInfo">
+				<span class="PEI_date">2013-10-30</span>
+				<span class="PEI_name"><a href="http://www.upopen.cn:8080/" target="_blank">3D坦克大战 V0.5 - tank </a></span>
+				<span class="PEI_info">以threeJS框架为核心3D坦克大战，包含了坦克模型、行进、射击、雷达、分数统计、在线通信等功能，可通过角色选择在线对战
+				</span>
+				<span class="PEI_key">
+					<a href="#">threeJs</a>
+					<a href="#">css3</a>
+					<a href="#">nodeJs</a>
+					<a href="#">socket.io</a>
+				</span>
+			</div>
+		</div>
+		<div class="productEl">
+			<div class="productElPic">
+				<a href="http://www.upopen.cn:8081/" target="_blank"><img src="/module/index/imgs/pic_chess.png" /></a>
+			</div>
+			<div class="productElIcon">
+				<img src="/module/index/imgs/icon_chess.png" />
+			</div>
+			<div class="productElInfo">
+				<span class="PEI_date">2013-07-09</span>
+				<span class="PEI_name"><a href="http://www.upopen.cn:8081/" target="_blank">中国象棋 V0.2 - china chess </a></span>
+				<span class="PEI_info">以css3 / js / canvas为支撑开发中国象棋，支持生成、常规规则，整个游戏没有使用图片，重点在棋子个性化属性制定
+				</span>
+				<span class="PEI_key">
+					<a href="#">css3</a>
+					<a href="#">js</a>
+					<a href="#">canvas</a>
+					<a href="#">socket.io</a>
+				</span>
+			</div>
+		</div>
+		<div class="productEl">
+			<div class="productElPic">
+				<a href="http://www.upopen.cn/draughts/index.html" target="_blank"><img src="/module/index/imgs/pic_draughts.png" /></a>
+			</div>
+			<div class="productElIcon">
+				<img src="/module/index/imgs/icon_draughts.png" />
+			</div>
+			<div class="productElInfo">
+				<span class="PEI_date">2013-06-24</span>
+				<span class="PEI_name"><a href="http://www.upopen.cn/draughts/index.html" target="_blank">跳棋 V0.1 - draughts</a></span>
+				<span class="PEI_info">使用 css3 和 js 开发的跳棋，重点在于棋子位置绘制及相互关系的计算，可选择多个玩家
+				</span>
+				<span class="PEI_key">
+					<a href="#">css3</a>
+					<a href="#">js</a>
+				</span>
+			</div>
+		</div>
+	</div>
+</div>
+<% include ./common/footer.ejs %>

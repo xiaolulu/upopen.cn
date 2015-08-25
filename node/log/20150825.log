@@ -1,0 +1,465 @@
+[2015-08-25 15:38:39.708] [INFO] logInfo - server start3000
+[2015-08-25 15:38:39.720] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:44:19.954] [INFO] logInfo - server start3000
+[2015-08-25 15:44:19.967] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:45:17.138] [INFO] logInfo - /:::::::::::::GET
+[2015-08-25 15:45:22.275] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 15:45:22.392] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:45:22.418] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:45:24.636] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 15:45:46.730] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:45:47.004] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 15:45:47.005] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:52:33.354] [INFO] logInfo - server start3000
+[2015-08-25 15:52:33.367] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:52:36.214] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:53:35.159] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:53:44.372] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:53:44.635] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:53:44.659] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:53:44.666] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 15:54:20.558] [INFO] logInfo - server start3000
+[2015-08-25 15:54:20.571] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:54:22.200] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:54:22.849] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:54:22.858] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:54:22.877] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 15:54:48.388] [INFO] logInfo - server start3000
+[2015-08-25 15:54:48.401] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:54:50.156] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:54:50.410] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:54:50.434] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:54:50.439] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 15:54:50.449] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 15:54:58.850] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 15:57:10.331] [INFO] logInfo - server start3000
+[2015-08-25 15:57:10.343] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:58:05.462] [INFO] logInfo - server start3000
+[2015-08-25 15:58:05.909] [INFO] logInfo - server start3000
+[2015-08-25 15:58:05.922] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:58:09.941] [INFO] logInfo - server start3000
+[2015-08-25 15:58:09.954] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 15:58:10.797] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:58:11.028] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:58:11.038] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:58:11.059] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 15:58:11.066] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 15:58:17.186] [INFO] logInfo - /:::::::::::::GET
+[2015-08-25 15:58:19.993] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 15:58:53.238] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 15:58:53.341] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:58:53.345] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:59:05.481] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 15:59:43.122] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 15:59:46.065] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 15:59:49.376] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 15:59:55.213] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 15:59:55.543] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 15:59:55.546] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 15:59:55.554] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 15:59:55.560] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 16:00:04.850] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 16:00:06.691] [INFO] logInfo - /:::::::::::::GET
+[2015-08-25 16:00:09.004] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:00:46.661] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 16:02:09.682] [INFO] logInfo - server start3000
+[2015-08-25 16:02:09.695] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 16:02:11.278] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 16:02:11.559] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:02:11.581] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:02:11.584] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:02:11.592] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 16:02:13.274] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 16:02:15.622] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 16:02:19.963] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:03:23.733] [INFO] logInfo - server start3000
+[2015-08-25 16:03:23.746] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 16:03:26.191] [INFO] logInfo - server start3000
+[2015-08-25 16:03:26.203] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 16:03:27.289] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:03:27.746] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:03:27.753] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:03:57.076] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:03:57.399] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:03:57.410] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:29.722] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:04:30.075] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:30.081] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:30.084] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-08-25 16:04:35.778] [INFO] logInfo - /:::::::::::::GET
+[2015-08-25 16:04:40.986] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 16:04:41.258] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:41.263] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:43.390] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:04:43.715] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:43.715] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:43.716] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-08-25 16:04:45.577] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 16:04:45.863] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:45.864] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:46.751] [INFO] logInfo - /article/info/55b5c9eeb41f30c21c000001:::::::::::::GET
+[2015-08-25 16:04:47.079] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:47.081] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:47.090] [INFO] logInfo - /fetchArticleInfo:::::::::::::GET
+[2015-08-25 16:04:48.875] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 16:04:49.146] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:49.158] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:50.702] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 16:04:50.968] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:50.976] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:51.003] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:04:51.009] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 16:04:53.853] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 16:04:54.133] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:04:54.142] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:04:54.143] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:04:54.151] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 16:05:04.664] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 16:05:04.942] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:05:04.946] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:05:04.954] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:05:04.958] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 16:05:07.066] [INFO] logInfo - /manage/edit:::::::::::::GET
+[2015-08-25 16:05:36.015] [INFO] logInfo - /manage/edit:::::::::::::GET
+[2015-08-25 16:05:36.318] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:05:42.996] [INFO] logInfo - /manage/kindList:::::::::::::GET
+[2015-08-25 16:05:43.376] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:06:00.693] [INFO] logInfo - /addKind:::::::::::::POST
+[2015-08-25 16:06:05.157] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 16:06:05.446] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:06:05.448] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:06:05.452] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:06:05.455] [INFO] logInfo - db article update, doc.length=3
+[2015-08-25 16:06:07.334] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 16:06:09.003] [INFO] logInfo - /manage/edit:::::::::::::GET
+[2015-08-25 16:06:09.274] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:06:26.524] [INFO] logInfo - /addArticle:::::::::::::POST
+[2015-08-25 16:06:26.537] [INFO] logInfo - db article save, doc={ __v: 0,
+  kind: 'mongo',
+  title: 'mongo use',
+  description: 'qwef',
+  author: 'qwef',
+  disabled: false,
+  sort: 1,
+  hot: 1,
+  content: 'qwefqwef',
+  link: '',
+  date: Tue Aug 25 2015 16:06:26 GMT+0800 (CST),
+  _id: 55dc22025357cefa18000002,
+  tag: [ 'qwf' ] }
+[2015-08-25 16:06:30.380] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 16:06:30.660] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:06:30.665] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:06:30.670] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:06:30.675] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 16:06:31.844] [INFO] logInfo - /manage/list:::::::::::::GET
+[2015-08-25 16:06:32.116] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:06:32.119] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 16:06:32.127] [INFO] logInfo - /fetchArticle:::::::::::::GET
+[2015-08-25 16:06:32.130] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 16:06:32.950] [INFO] logInfo - /manage/rebuild:::::::::::::POST
+[2015-08-25 16:06:36.187] [INFO] logInfo - /:::::::::::::GET
+[2015-08-25 16:06:39.940] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 16:06:40.214] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 16:06:40.215] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 21:49:04.291] [INFO] logInfo - server start3000
+[2015-08-25 21:49:04.303] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:49:18.253] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-25 21:49:40.615] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-25 21:49:45.900] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-25 21:49:57.468] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-25 21:51:10.181] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-25 21:52:10.316] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 21:52:30.475] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 21:52:30.485] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 21:52:30.488] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-25 21:52:30.513] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 21:53:15.914] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 21:53:26.132] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 21:53:26.263] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 21:53:26.263] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 21:53:26.264] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-25 21:53:26.271] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 21:53:27.685] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 21:53:27.816] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 21:53:27.825] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 21:53:27.826] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-25 21:53:27.840] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 21:53:31.981] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 21:53:32.109] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 21:53:32.113] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 21:53:32.120] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-25 21:53:32.158] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 21:53:37.149] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 21:53:57.397] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 21:53:57.428] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 21:53:57.429] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-25 21:53:57.433] [INFO] logInfo - db article update, doc.length=4
+[2015-08-25 21:54:01.603] [INFO] logInfo - recive requext path=/article/edit;method=GET
+[2015-08-25 21:54:11.068] [INFO] logInfo - recive requext path=/article/edit;method=GET
+[2015-08-25 21:54:23.011] [INFO] logInfo - server start3000
+[2015-08-25 21:54:23.024] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:55:05.315] [INFO] logInfo - server start3000
+[2015-08-25 21:55:05.328] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:55:17.183] [INFO] logInfo - server start3000
+[2015-08-25 21:55:17.196] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:55:46.488] [INFO] logInfo - server start3000
+[2015-08-25 21:55:46.501] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:56:14.527] [INFO] logInfo - server start3000
+[2015-08-25 21:56:14.540] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:56:45.394] [INFO] logInfo - server start3000
+[2015-08-25 21:56:45.408] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:56:48.299] [INFO] logInfo - server start3000
+[2015-08-25 21:56:48.312] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:56:50.865] [INFO] logInfo - server start3000
+[2015-08-25 21:56:50.878] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:57:22.554] [INFO] logInfo - server start3000
+[2015-08-25 21:57:22.567] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:57:24.503] [INFO] logInfo - server start3000
+[2015-08-25 21:57:24.517] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:57:27.254] [INFO] logInfo - recive requext path=/article/edit;method=GET
+[2015-08-25 21:57:39.847] [INFO] logInfo - recive requext path=/article/edit;method=GET
+[2015-08-25 21:57:51.431] [INFO] logInfo - server start3000
+[2015-08-25 21:57:51.443] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:57:56.668] [INFO] logInfo - server start3000
+[2015-08-25 21:57:56.681] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:58:17.893] [INFO] logInfo - server start3000
+[2015-08-25 21:58:17.906] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:58:19.635] [INFO] logInfo - server start3000
+[2015-08-25 21:58:19.650] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:58:21.966] [INFO] logInfo - recive requext path=/article/edit;method=GET
+[2015-08-25 21:58:21.987] [INFO] logInfo - recive requext path=/error;method=GET
+[2015-08-25 21:58:28.887] [INFO] logInfo - server start3000
+[2015-08-25 21:58:28.900] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:59:00.643] [INFO] logInfo - server start3000
+[2015-08-25 21:59:00.662] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 21:59:41.111] [INFO] logInfo - recive requext path=/error;method=GET
+[2015-08-25 21:59:54.665] [INFO] logInfo - server start3000
+[2015-08-25 21:59:54.678] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:00:00.988] [INFO] logInfo - server start3000
+[2015-08-25 22:00:01.001] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:00:31.697] [INFO] logInfo - server start3000
+[2015-08-25 22:00:31.710] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:00:43.343] [INFO] logInfo - server start3000
+[2015-08-25 22:00:43.357] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:00:44.162] [INFO] logInfo - server start3000
+[2015-08-25 22:00:44.175] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:00:47.954] [INFO] logInfo - recive requext path=/error;method=GET
+[2015-08-25 22:00:52.029] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-25 22:00:55.255] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-25 22:01:09.829] [INFO] logInfo - server start3000
+[2015-08-25 22:01:09.842] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:01:27.385] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:01:58.079] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:01:58.247] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 22:01:58.268] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:01:59.826] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:01:59.971] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 22:01:59.971] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:03:17.159] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:03:17.346] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 22:03:17.353] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:03:53.307] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:03:53.445] [INFO] logInfo - recive requext path=/fetchKind1;method=GET
+[2015-08-25 22:03:53.450] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:03:53.452] [INFO] logInfo - recive requext path=/error;method=GET
+[2015-08-25 22:04:22.332] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:04:22.456] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:04:22.461] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:04:36.382] [INFO] logInfo - server start3000
+[2015-08-25 22:04:36.395] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:04:40.982] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:04:41.122] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:04:41.132] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:05:45.646] [INFO] logInfo - server start3000
+[2015-08-25 22:05:45.659] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:05:49.681] [INFO] logInfo - server start3000
+[2015-08-25 22:05:49.694] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:05:53.516] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:05:53.658] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:05:53.667] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:06:29.996] [INFO] logInfo - server start3000
+[2015-08-25 22:06:30.009] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:06:31.648] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:06:31.816] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:06:31.821] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:06:41.480] [INFO] logInfo - server start3000
+[2015-08-25 22:06:41.492] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:06:42.639] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:06:42.797] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:06:42.803] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:06:46.712] [INFO] logInfo - server start3000
+[2015-08-25 22:06:46.725] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:06:47.346] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:06:47.512] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:06:47.518] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:06:53.840] [INFO] logInfo - server start3000
+[2015-08-25 22:06:53.856] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:06:54.638] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:06:54.795] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:06:54.802] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:07:01.629] [INFO] logInfo - server start3000
+[2015-08-25 22:07:01.641] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:07:03.108] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:07:03.261] [INFO] logInfo - recive requext path=/fetchKind1;method=POST
+[2015-08-25 22:07:03.266] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:07:12.585] [INFO] logInfo - server start3000
+[2015-08-25 22:07:12.601] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:07:18.499] [INFO] logInfo - server start3000
+[2015-08-25 22:07:18.513] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:07:38.610] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-25 22:07:38.769] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-25 22:07:38.793] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-25 22:07:54.373] [INFO] logInfo - server start3000
+[2015-08-25 22:07:54.386] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:08:05.380] [INFO] logInfo - server start3000
+[2015-08-25 22:08:05.393] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:08:09.737] [INFO] logInfo - server start3000
+[2015-08-25 22:08:09.750] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:08:29.909] [INFO] logInfo - server start3000
+[2015-08-25 22:08:29.922] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:08:49.485] [INFO] logInfo - server start3000
+[2015-08-25 22:08:49.501] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:09:00.777] [INFO] logInfo - server start3000
+[2015-08-25 22:09:00.790] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:09:08.356] [INFO] logInfo - server start3000
+[2015-08-25 22:09:08.369] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:10:31.327] [INFO] logInfo - server start3000
+[2015-08-25 22:10:31.341] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:10:31.751] [INFO] logInfo - server start3000
+[2015-08-25 22:10:31.764] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:10:33.544] [INFO] logInfo - server start3000
+[2015-08-25 22:10:33.557] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:11:01.884] [INFO] logInfo - server start3000
+[2015-08-25 22:11:01.897] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:11:38.404] [INFO] logInfo - server start3000
+[2015-08-25 22:11:38.418] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:11:51.480] [INFO] logInfo - server start3000
+[2015-08-25 22:11:51.493] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:12:32.019] [INFO] logInfo - server start3000
+[2015-08-25 22:12:32.032] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:12:45.452] [INFO] logInfo - server start3000
+[2015-08-25 22:12:45.465] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:08.954] [INFO] logInfo - server start3000
+[2015-08-25 22:13:08.967] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:27.523] [INFO] logInfo - server start3000
+[2015-08-25 22:13:27.536] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:31.760] [INFO] logInfo - server start3000
+[2015-08-25 22:13:31.772] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:38.525] [INFO] logInfo - server start3000
+[2015-08-25 22:13:38.538] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:45.171] [INFO] logInfo - server start3000
+[2015-08-25 22:13:45.185] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:46.389] [INFO] logInfo - server start3000
+[2015-08-25 22:13:46.402] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:51.505] [INFO] logInfo - server start3000
+[2015-08-25 22:13:51.518] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:51.936] [INFO] logInfo - server start3000
+[2015-08-25 22:13:51.949] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:13:52.338] [INFO] logInfo - server start3000
+[2015-08-25 22:13:52.351] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:08.343] [INFO] logInfo - server start3000
+[2015-08-25 22:14:08.358] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:08.746] [INFO] logInfo - server start3000
+[2015-08-25 22:14:08.759] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:10.644] [INFO] logInfo - server start3000
+[2015-08-25 22:14:10.657] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:12.912] [INFO] logInfo - server start3000
+[2015-08-25 22:14:12.925] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:17.897] [INFO] logInfo - server start3000
+[2015-08-25 22:14:17.910] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:21.664] [INFO] logInfo - server start3000
+[2015-08-25 22:14:21.678] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:22.100] [INFO] logInfo - server start3000
+[2015-08-25 22:14:22.113] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:37.477] [INFO] logInfo - server start3000
+[2015-08-25 22:14:37.490] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:14:49.263] [INFO] logInfo - server start3000
+[2015-08-25 22:14:49.275] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:15:10.227] [INFO] logInfo - server start3000
+[2015-08-25 22:15:10.240] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:15:16.077] [INFO] logInfo - server start3000
+[2015-08-25 22:15:16.090] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:15:16.537] [INFO] logInfo - server start3000
+[2015-08-25 22:15:16.550] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:15:30.683] [INFO] logInfo - server start3000
+[2015-08-25 22:15:30.696] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:15:50.004] [INFO] logInfo - server start3000
+[2015-08-25 22:15:50.017] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:15:57.075] [INFO] logInfo - server start3000
+[2015-08-25 22:15:57.089] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:16:04.341] [INFO] logInfo - server start3000
+[2015-08-25 22:16:04.354] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:16:12.713] [INFO] logInfo - server start3000
+[2015-08-25 22:16:12.726] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:16:43.187] [INFO] logInfo - server start3000
+[2015-08-25 22:16:43.200] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:17:30.254] [INFO] logInfo - server start3000
+[2015-08-25 22:17:30.271] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:17:30.687] [INFO] logInfo - server start3000
+[2015-08-25 22:17:30.700] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:17:51.660] [INFO] logInfo - server start3000
+[2015-08-25 22:17:51.673] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:17:54.601] [INFO] logInfo - server start3000
+[2015-08-25 22:17:54.614] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:17:58.642] [INFO] logInfo - server start3000
+[2015-08-25 22:17:58.655] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:18:04.825] [INFO] logInfo - server start3000
+[2015-08-25 22:18:04.838] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:18:17.314] [INFO] logInfo - server start3000
+[2015-08-25 22:18:17.327] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:18:17.734] [INFO] logInfo - server start3000
+[2015-08-25 22:18:17.747] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:18:26.240] [INFO] logInfo - server start3000
+[2015-08-25 22:18:26.252] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:18:34.199] [INFO] logInfo - server start3000
+[2015-08-25 22:18:34.213] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:18:41.971] [INFO] logInfo - server start3000
+[2015-08-25 22:18:41.985] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:19:54.438] [INFO] logInfo - server start3000
+[2015-08-25 22:19:54.451] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:19:57.485] [INFO] logInfo - server start3000
+[2015-08-25 22:19:57.498] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:20:01.753] [INFO] logInfo - server start3000
+[2015-08-25 22:20:01.766] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:21:29.660] [INFO] logInfo - server start3000
+[2015-08-25 22:21:29.673] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:21:44.305] [INFO] logInfo - server start3000
+[2015-08-25 22:21:44.318] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:21:50.781] [INFO] logInfo - server start3000
+[2015-08-25 22:21:50.794] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:21:54.475] [INFO] logInfo - server start3000
+[2015-08-25 22:21:54.488] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:21:56.570] [INFO] logInfo - server start3000
+[2015-08-25 22:21:56.582] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:22:37.905] [INFO] logInfo - server start3000
+[2015-08-25 22:22:37.917] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:23:37.703] [INFO] logInfo - server start3000
+[2015-08-25 22:23:37.719] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:23:41.294] [INFO] logInfo - server start3000
+[2015-08-25 22:23:41.306] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:23:47.892] [INFO] logInfo - server start3000
+[2015-08-25 22:23:47.905] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:13.846] [INFO] logInfo - server start3000
+[2015-08-25 22:24:13.859] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:17.561] [INFO] logInfo - server start3000
+[2015-08-25 22:24:17.959] [INFO] logInfo - server start3000
+[2015-08-25 22:24:17.972] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:19.350] [INFO] logInfo - server start3000
+[2015-08-25 22:24:19.363] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:20.836] [INFO] logInfo - server start3000
+[2015-08-25 22:24:20.849] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:27.848] [INFO] logInfo - server start3000
+[2015-08-25 22:24:27.863] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:48.609] [INFO] logInfo - server start3000
+[2015-08-25 22:24:48.622] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:50.256] [INFO] logInfo - server start3000
+[2015-08-25 22:24:50.269] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:51.815] [INFO] logInfo - server start3000
+[2015-08-25 22:24:51.828] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:24:59.781] [INFO] logInfo - server start3000
+[2015-08-25 22:24:59.794] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:25:15.628] [INFO] logInfo - server start3000
+[2015-08-25 22:25:15.640] [INFO] logInfo - connect to mongoDB success
+[2015-08-25 22:25:22.568] [INFO] logInfo - server start3000
+[2015-08-25 22:25:22.581] [INFO] logInfo - connect to mongoDB success

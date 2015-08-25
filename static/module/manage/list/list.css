@@ -1,0 +1,28 @@
+
+.col-md-6{
+    padding: 10px;
+}
+
+.item{
+    border-radius: 3px;
+    padding: 3px 8px;
+}
+
+.item .title{
+    font-size: 16px;
+    line-height: 2em;
+}
+
+.item .info span{
+    color: #777
+}
+
+.item .info tt{
+    color: #777;
+    padding: 0 8px;
+}
+
+.item .description{
+    line-height: 1.5em;
+    color: #777;
+}

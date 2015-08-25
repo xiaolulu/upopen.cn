@@ -1,0 +1,10 @@
+<% include ../common/header.ejs %>
+
+<section class="col-md-10" id="articleBox">
+    <h3 class="crumbs"><a href="/article/list">技术博客</a> &gt;&gt; <tt>全部类目</tt></h3>
+	<div class="htxContent hide">{content}</div>
+</section>
+
+<% include ../common/kind.ejs %>
+<% include ../common/footer.ejs %>
+

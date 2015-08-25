@@ -1,0 +1,7 @@
+[2015-08-25 10:09:00.038] [INFO] logInfo - server start3000
+[2015-08-25 10:16:43.088] [INFO] logInfo - server start3000
+[2015-08-25 10:16:48.841] [INFO] logInfo - /:::::::::::::GET
+[2015-08-25 10:16:51.466] [INFO] logInfo - /article/list:::::::::::::GET
+[2015-08-25 10:16:51.661] [INFO] logInfo - /fetchKind:::::::::::::GET
+[2015-08-25 10:16:51.670] [INFO] logInfo - /fetchTalk:::::::::::::GET
+[2015-08-25 10:16:53.611] [INFO] logInfo - /:::::::::::::GET

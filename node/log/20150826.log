@@ -1,0 +1,38 @@
+[2015-08-26 07:19:30.054] [INFO] logInfo - server start3000
+[2015-08-26 07:19:30.067] [INFO] logInfo - connect to mongoDB success
+[2015-08-26 07:19:47.810] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-26 07:19:51.226] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-26 07:20:28.305] [INFO] logInfo - recive requext path=/;method=GET
+[2015-08-26 07:20:36.763] [INFO] logInfo - recive requext path=/article/list;method=GET
+[2015-08-26 07:20:36.874] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:20:36.887] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:28:59.758] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-26 07:29:00.249] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:29:00.253] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:29:00.256] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-26 07:29:00.266] [INFO] logInfo - db article update, doc.length=4
+[2015-08-26 07:29:14.176] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-26 07:29:14.331] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:29:14.335] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:29:14.336] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-26 07:29:14.342] [INFO] logInfo - db article update, doc.length=4
+[2015-08-26 07:29:30.162] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-26 07:29:30.285] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:29:30.292] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:29:30.292] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-26 07:29:30.295] [INFO] logInfo - db article update, doc.length=4
+[2015-08-26 07:29:39.461] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-26 07:29:39.629] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:29:39.632] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:29:39.658] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-26 07:29:39.691] [INFO] logInfo - db article update, doc.length=4
+[2015-08-26 07:30:29.265] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-26 07:30:29.542] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:30:29.547] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:30:29.553] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-26 07:30:29.556] [INFO] logInfo - db article update, doc.length=4
+[2015-08-26 07:30:44.617] [INFO] logInfo - recive requext path=/manage/list;method=GET
+[2015-08-26 07:30:44.920] [INFO] logInfo - recive requext path=/fetchKind;method=GET
+[2015-08-26 07:30:44.923] [INFO] logInfo - recive requext path=/fetchTalk;method=GET
+[2015-08-26 07:30:44.928] [INFO] logInfo - recive requext path=/fetchArticle;method=GET
+[2015-08-26 07:30:44.932] [INFO] logInfo - db article update, doc.length=4

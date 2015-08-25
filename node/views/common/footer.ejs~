@@ -1,0 +1,11 @@
+<footer class="footerBox">
+<div style="width: 960px; padding: 10px;margin: 0px auto;"><a style="float: right; padding: 10px; color: #fff;" href="http://jiangxiao-2000.iteye.com/">点击进入ITEYE博客</a></div>
+</footer>
+
+<script type="text/javascript" src="<%= basePath %>/core/jquery.min.js"></script>
+<script type="text/javascript" src="<%= basePath %>/public/jquery.form.js"></script>
+<script type="text/javascript" src="<%= basePath %>/core/jquery.cookies.min.js"></script>
+<script type="text/javascript" src="<%= basePath %>/core/jquery.placeholder.min.js"></script>
+<script type="text/javascript" data-main="<%= basePath %>/module<%= currentPage %>.js" src="<%= basePath %>/core/require.js"></script>
+</body>
+</html>
