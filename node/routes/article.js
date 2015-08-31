@@ -27,7 +27,7 @@ function info( req, res ){
 
 function infoHtx( req, res ){
 
-	res.render( 'article/info/' + req.params.id + '.ejs', config.setting( { path: '/article/info' } )  );
+	res.render( 'article/info/' + req.params.id + '.ejs', config.setting( { path: '/article/infoHtx' } )  );
 
 }
 

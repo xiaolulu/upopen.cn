@@ -7,7 +7,7 @@ require.config({
 	},
 	baseUrl: basePath,
 	paths: {
-		base: 'core/base',
+		base: 'core/js/base',
 		dialog: 'widget/dialog/dialog',
 		all: 'public/js/all',
 		doc: 'public/js/zhdoc',

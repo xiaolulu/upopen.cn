@@ -20,7 +20,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 	var belong = 'thisismessage',
 		content = $( '#talkcontent' ),
 		talkBox = $( '#talkBox' ),
-       talkAmount = $( '#talkAmount' ),
+        talkAmount = $( '#talkAmount' ),
         formBtn = $('#form').find('button'),
 		data = [],
 		tmp = [ '<tt class="talkNum">{num}</tt>',
@@ -40,8 +40,8 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 	function render( item, talkBox ){
 		
 		item.num = data.length + 1;
-        item.date = item.date.replace( 'T' , ' ' );
-        item.name = item.name || '匿名';
+        item.date = item.date.replace( /[T|Z]/g , ' ' );
+        item.name = item.userId || '匿名';
 		var el =  tmp.replace( /\{(.*?)\}/g, function( $1, $2 ){
 				return item[ $2 ];
 			}) ;
@@ -55,7 +55,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 	}
     
     function submitTalk( belong ){
-        $( '#form' ).on( 'submit', function(){
+        $( '#talkBoxForm' ).on( 'submit', function(){
 		    formBtn.attr( 'disabled', true );
 		    var data = {
 			    content: content.val(),
@@ -74,7 +74,9 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
                     dialog.show( '回复太频繁了，请稍后再试')
                    }  else if( ret.code == '1002' ) {
                     dialog.show( '内容不能为空')
-                   }
+                   } else if( ret.code == '2001' ){
+						dialog.show( '评论请先登录 ' );
+					}
                     formBtn.attr( 'disabled', false );
 			    }
 		    } );
@@ -97,7 +99,7 @@ define( ['base', 'dialog', 'doc', 'all'],function( base, Dialog, DOC ){
 			success: function( ret ){
 				if( ret.code == '0' ){
 					renderAll( ret.data );
-                submitTalk( belong )
+                	submitTalk( belong )
 				}
 			}
 		} );

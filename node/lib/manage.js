@@ -140,7 +140,7 @@ function createIndex(){
 		var els = [];
 		for( var k in items ){
 			var v = items[k],
-				h2 = '<h2 class="col-md-12"><a href="/article/list/'+k+'">'+k+'</a></h2>';
+				h2 = '<h4 class="col-md-12"><a href="/article/list/'+k+'">'+k+'</a></h4>';
 		  	els.push( h2 )
 		    var i = 0
 		    for( ; i < v.length; i++ ){
@@ -168,7 +168,7 @@ function createIndex(){
 	function fetchArticle( req, res ){
 		
 		fetchArticleByKindAll({}, function( docs ){
-			htx2Ejs( { content: initData( docs ) }, 'views/index', 'views/index' );
+			htx2Ejs( { content: initData( docs ) }, 'views/index', 'views/index', res );
 		})
 	
 	};
@@ -212,6 +212,25 @@ function rebuild( req, res ){
 
 }
 
+function loginIn( req, res ){
+
+	if( req.body.username == 'fc5be43d76d40e9f4d18bf117726f04d' && req.body.password == '69727ae2597954d5a7d0733bc9e3a5b5' ){
+		req.session.status = true;
+		res.send( { code: 0, msg: 'login success' } );
+	} else {
+		res.send( { code: 1001, msg: 'username or password is wrong' } );
+	}
+
+}
+
+function logout( req, res ){
+
+	req.session.status = false;
+	res.send( { code: 0, msg: 'logout success' } );
+}
+
 module.exports = {
-	rebuild:   rebuild
+	rebuild:   rebuild,
+	loginIn:	loginIn,
+	logout:		logout
 }

@@ -26,6 +26,8 @@ function hasConnected( cb ){
 function redisGet( key, cb ){
 	hasConnected( function(){
 		client.get( key, function( err, reply ){
+			console.log( 'redisget' );
+			console.log( reply );
 			if( !err && reply ){
 				reply = reply.toString();
 

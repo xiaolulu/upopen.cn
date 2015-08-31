@@ -8,13 +8,13 @@ require.config({
 	baseUrl: basePath,
 	paths: {
         base: 'core/base',
-        all: 'public/all',
+        all: 'public/js/all',
         kind: 'public/js/kind',
         talk: 'public/js/talk'
 	}
 })
 
-define( [ 'kind' ],function( kind ){
+define( [ 'kind', 'all' ],function( kind ){
 	
     var articleBox = $( '#articleBox' ),
         tmp = ['<div class="col-md-6">',

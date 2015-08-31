@@ -5,7 +5,11 @@ var http  	= require( 'http' ),
 	talk 	= require( './talk' ),
 	article = require( './article' ),
 	config 	= require( '../config/site' ),
+	auth	= require( '../config/auth' ),
 	manage 	= require( './manage' ),
+	user 	= require( './user' ),
+	redis	= require( '../tool/redis' ),
+	session = require( 'express-session' ),
 	kind 	= require( './kind' );
 
 var Domain = domain.create();
@@ -14,15 +18,45 @@ Domain.on( 'error', function( e ){
 	toy.log.error( 'domain error: ' + e );
 });
 
+function online( req, res, cb ){
+
+	var sid = toy.getCookie( req.headers.cookie, 'connectSid' );
+	redis.get( sid, function( ret ){
+		cb( ret );
+	} )
+
+}
+
 exports.all = function( app ){
+
+	app.use( session({
+		resave: false,
+		saveUninitialized: false,
+		secret: 'upopen'
+	}))
 	
 	/****************************************
-	入口
+	
 	****************************************/
 	app.use( function( req, res, next){
 	
 		toy.log.info( 'recive requext path=' + req.path + ';method=' + req.method );
+		console.log( req.path + ':' + req.method );
 		res.header( "Content-Type", "text/html; charset=utf-8" );
+		if( auth[ req.path ] == 1 && !req.session.status ){
+			res.redirect( '/manage/login' );
+			return;
+		}
+		if( auth[ req.path ] == 2 ){
+			online( req, res, function( ret ){
+				if( ret ){
+					next()
+				} else {
+					res.redirect( '/index' );
+				}
+			});			
+			return;
+		}
 		next();
 
 	});
@@ -137,10 +171,7 @@ exports.all = function( app ){
 	} );
 
     /***********************************************
-	KIND
-
-	G - fetchTalk:       
-	G - addTalk:    
+	KIND   
 	
 	************************************************/
 
@@ -178,6 +209,24 @@ exports.all = function( app ){
 	
 	************************************************/
 
+	app.get( '/manage/login', function( req, res ){
+
+		manage.login( req, res );
+	
+	} );
+
+	app.post( '/manage/loginIn', function( req, res ){
+
+		manage.loginIn( req, res );
+	
+	} );
+
+	app.get( '/manage/logout', function( req, res ){
+
+		manage.logout( req, res );
+	
+	} );
+
 	app.get( '/manage/list', function( req, res ){
 
 		manage.list( req, res );
@@ -200,7 +249,41 @@ exports.all = function( app ){
 
 		manage.rebuild( req, res );
 
-	})
+	});
+
+	/***********************************************
+	user
+	
+	
+	************************************************/
+
+	app.get( '/login', function( req, res ){
+
+		user.findUser( req, res );
+	
+	} );
+
+	app.post( '/register', function( req, res ){
+
+		user.addUser( req, res );
+
+	});
+
+	app.post( '/logout', function( req, res ){
+		
+		var sid = toy.getCookie( req.headers.cookie, 'connectSid' );
+		redis.set( sid, null );
+        res.setHeader("Set-Cookie","username=null;" );
+		res.setHeader("Set-Cookie","connectSid=null;" );
+		res.send( { code: 0 } );
+
+	});
+
+	app.get( '/user/info', function( req, res ){
+		
+		user.info( req, res );
+	
+	} );
 
 
 	/***********************************************

@@ -77,7 +77,7 @@ define([], function(){
 	}
 
 	function renderTalk( item, talkBox ){
-        item.name = item.name || '匿名';
+        item.name = item.userId || '匿名';
         item.content = item.content.slice( 0, 40 );
 		var el =  tmpTalk.replace( /\{(.*?)\}/g, function( $1, $2 ){
 				return item[ $2 ];

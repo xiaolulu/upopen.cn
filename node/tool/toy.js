@@ -2,6 +2,7 @@
 var log4js       = require( 'log4js' ),
 	qs           = require( 'querystring'),
 	http         = require( 'http' ),
+	crypto       = require( 'crypto' ),
 	server       = require( '../config/server' ).server,
 	domain       = require('domain'),
 	BufferHelper = require( 'BufferHelper' );
@@ -52,12 +53,28 @@ function getCookie( cookie, name ){
 
 	} catch( e ){
 		
-		toy.log.error( 'getCookie: error=' + e );
+		logInfo.error( 'getCookie: error=' + e );
 		return false;
 
 	}
     
 };
+
+/******************************* pad *************************************/
+function pad( str, len, pack ){
+
+	return ( new Array( len - ( str + '' ).length + 1 ).join( pack || '0' ) ) + str;
+
+}
+
+/******************************* md5 *************************************/
+var md5 = function(data) { 
+	
+    return crypto.createHash('md5').update(data).digest('hex').toLowerCase();  
+
+} 
+
+
 
 function getTime( config ){
 	
@@ -154,10 +171,11 @@ function reqConfig( config, req, res, callback ){
 
 module.exports = {
 
-    getCookie: 	getCookie,
-	reqConfig: 	reqConfig,
-	log: 		logInfo,
-	getTime:	getTime,
+    getCookie: 		getCookie,
+	reqConfig: 		reqConfig,
+	log: 			logInfo,
+	getTime:		getTime,
+	md5:			md5,
 	getClientIp:	getClientIp
 
 }

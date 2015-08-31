@@ -1,12 +1,7 @@
 
-h2{
+h4{
     border-bottom: 1px solid #9f9f9f;
     padding-bottom: 10px;
-}
-
-.item{
-    border-radius: 3px;
-    padding: 3px 8px;
 }
 
 .item .title{

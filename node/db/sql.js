@@ -48,6 +48,7 @@ var KindModel = mongoose.model( 'kind', KindSchema, 'Kind' );
 
 var TalkSchema = new Schema({
 	belong: String,
+	userId: String,
 	title: String,
 	content: String,
 	name: String,
@@ -58,6 +59,15 @@ var TalkSchema = new Schema({
 });
 
 var TalkModel = mongoose.model( 'talk', TalkSchema, 'talk' );
+
+var UserSchema = new Schema({
+	username: String,
+	password: String,
+	disabled: Boolean,
+	date: Date
+});
+
+var UserModel = mongoose.model( 'user', UserSchema, 'user' );
 
 /***************************************************************/
 /*sql*/
@@ -260,6 +270,30 @@ function incKind( index, amount, callback ){
 
 }
 
+/***************************************************************/
+/*sql*/
+/******** User *********/
+function addUser( data, callback ){
+
+	( new UserModel( data ) ).save( function( err, doc ){
+		callback( err, doc );
+	});
+
+}
+
+function findUser( data, callback ){
+
+	var query = {};
+	for( var key in data ){
+		if( UserSchema.tree[ key ] ){
+			query[ key ] = data[ key ];	
+		};
+	}
+	UserModel.find( query, { "password": 0 } ).exec( function( err, docs ){
+		callback( err, docs );
+	});
+
+}
 /****************************************************************/
 /*exports*/
 module.exports = {
@@ -278,6 +312,9 @@ module.exports = {
 	addTalk:    addTalk,
 	updateTalk: updateTalk,
 	FetchTalk:   fetchTalk,
-    FetchLastTalk: fetchLastTalk
+    FetchLastTalk: fetchLastTalk,
+
+	addUser: addUser,
+	findUser: findUser
 
 }

@@ -5,11 +5,15 @@
 <meta http-equiv="content-type" content="text/html;charset=utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="baidu-site-verification" content="IN5sB4A79X" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta name="keywords" content="全栈开发,全端工程师,nodejs,js爱好者,前端开发,大前端">
 <meta name="description" content="全栈开发,全端工程师,nodejs,js爱好者,前端开发,大前端">
 <link href="<%= basePath %>/public/css/reset.css" type="text/css" rel="stylesheet" >
+<link href="<%= basePath %>/core/css/bootstrap.min.css" type="text/css" rel="stylesheet" >
+<link href="<%= basePath %>/core/css/animate.css" type="text/css" rel="stylesheet" >
 <link href="<%= basePath %>/public/css/common.css" type="text/css" rel="stylesheet" >
-<link href="<%= basePath %>/core/css/markdown.css" type="text/css" rel="stylesheet" >
+<link href="<%= basePath %>/core/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" >
 <link href="<%= basePath %>/widget/dialog/dialog.css" type="text/css" rel="stylesheet" >
 <link href="<%= basePath %>/module<%= currentPage %>.css" type="text/css" rel="stylesheet" >
 <script type="text/javascript">
@@ -17,12 +21,33 @@ var basePath = '<%= basePath %>';
 </script>
 </head>
 <body page="<%= currentPage %>">
-<header>
-    <a href="/" class="logo">UPOPEN</a>
+<header class="navbar navbar-inverse navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header logo">
+		  <a class="navbar-brand" href="/" style="text-shadow: 0 0 13px #fff;">UPOPEN</a>
+		</div>
 
-    <ul class="navigator">
-        <li><a href="/article/list">技术博客</a></li>
-        <li><a href="/">首页</a></li>
-    </ul>
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<ul class="nav navbar-nav my_menu">
+				<li><a href="/">首页</a></li>
+				<li><a href="/article/list">技术博客</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right beforeLogin hide">
+				<li><a href="javascript:void(0)" data-toggle="modal" data-target="#userModal" id="toRegister">注册</a></li>
+				<li><a href="javascript:void(0)" data-toggle="modal" data-target="#userModal" id="toLogin">登录</a></li>
+			</ul>
+		
+			<ul class="nav navbar-nav navbar-right afterLogin hide">
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span id="userbarUsername"></span>&nbsp;&nbsp;<span class="caret"></span></a>
+				  <ul class="dropdown-menu">
+				    <li><a href="/user/info">个人中心</a></li>
+				    <li role="separator" class="divider"></li>
+				    <li><a href="#" id="toLogout">退出</a></li>
+				  </ul>
+				</li>
+			</ul>
+		</div>
+	</div>
 </header>
-<div class="wrapper clearfix">
+<div class="container clearfix wrapper">

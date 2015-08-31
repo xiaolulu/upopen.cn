@@ -1,0 +1,4 @@
+*.log
+/article/info/*.ejs
+/article/info/
+

@@ -1,7 +1,7 @@
 module.exports = {
     redis:{
-		host: '101.82.0.6',
-		port: '7777'
+		host: '127.0.0.1',
+		port: '6379'
 	},
 	server: {
 		host: '10.8.0.14',	
