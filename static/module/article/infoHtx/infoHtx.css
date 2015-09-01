@@ -74,3 +74,7 @@ h1{
 .talkItem .talkContent{
     line-height: 24px;
 }
+
+.markdown blockquote{
+	font-size: 14px;
+}
