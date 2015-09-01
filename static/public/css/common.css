@@ -9,6 +9,7 @@ body{
 	min-height: 100%;
 	position: relative;
 	background: url( /public/imgs/bg.png);
+	font-size: 14px;
 }
 
 .fl{
