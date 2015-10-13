@@ -1,0 +1,111 @@
+var mongoose = require( 'mongoose'  );
+mongoose.connect( 'mongodb://127.0.0.1/memberSystem', function( err ){
+    if( !err ){
+        console.log( 'DB == connect to mongodb' );
+    } else {
+        throw err;
+    }
+} );
+
+var Schema = mongoose.Schema;
+
+var UserSchema = new Schema({
+    username: String,
+    code: String,
+	point: Number,
+    date: Date    
+});
+
+var UserModel = mongoose.model( 'User', UserSchema, 'User' );
+
+var PointSchema = new Schema({
+    userid: String,
+    point: Number,
+    date: Date    
+});
+
+var PointModel = mongoose.model( 'Point', PointSchema, 'Point' );
+
+function initData( data, db ){
+    var query = {};
+    for( var key in data ){
+        if( db.tree[ key ] ){
+            query[ key ] = data[ key ];	
+        }
+    }
+	console.log( query )
+    return query;
+}
+
+function addUser( data, cb ){
+    data = initData( data, UserSchema );
+    ( new UserModel( data )).save( function( err, doc  ){
+        cb( err, doc );
+    })
+}
+
+function findUser( data, cb ){
+    data = initData( data, UserSchema );
+    UserModel.find( data ).exec( function( err, doc ){
+        cb( err, doc );
+     })
+}
+
+function removeUser( data, cb ){
+    data = initData( data, UserSchema );
+    UserModel.remove( data ).exec( function( err, doc ){
+        cb( err, doc );
+     })
+}
+
+function updateUserPoint( data, cb ){
+	console.log( '000000000000' );
+	console.log( data );
+    PointModel.update( { _id: data._id }, { $inc: { 'point': 10 } },{multi:true}, function( err, doc ){
+		console.log( err );
+		console.log( doc );
+        cb( err, doc );
+     })
+}
+
+function addPoint( data, cb ){
+    data = initData( data, PointSchema );
+	console.log( data );
+    ( new PointModel( data )).save( function( err, doc  ){
+        cb( err, doc );
+    })
+}
+
+function findPoint( data, cb ){
+    data = initData( data, PointSchema );
+	console.log( data );
+    PointModel.find( data ).exec( function( err, doc ){
+        cb( err, doc );
+     })
+}
+
+function removePoint( data, cb ){
+    data = initData( data, PointSchema );
+    PointModel.remove( data ).exec( function( err, doc ){
+        cb( err, doc );
+     })
+}
+
+function updatePoint( data, cb ){
+    data = initData( data, PointSchema );
+    PointModel.update( { _id: data._id }, data, function( err, doc ){
+        cb( err, doc );
+     })
+}
+
+module.exports = {
+    addUser: addUser,
+    findUser: findUser,
+	removeUser: removeUser,
+	addPoint: addPoint,
+	findPoint: findPoint,
+	removePoint: removePoint,
+	updatePoint: updatePoint,
+	updateUserPoint: updateUserPoint,
+}
+

@@ -1,0 +1,17 @@
+{
+    "name": "myCoolNodejs ",
+     "version": "0.0.1",
+    "private": true,
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "express": "*",
+        "ejs": "*",
+        "mongoose": "*",
+        "body-parser":"*",
+		"crypto": "*",
+		"log4js": "*",
+        "express-session": "*"
+    }
+}

@@ -1,0 +1,65 @@
+<% include ../common/header.ejs %>
+<div>
+<form id="search" style="width:400px;margin:10px auto;">
+	<input type="number" class="seachCode" />
+	<button type="submit">查询</button>
+	<button type="button" id="newUser">新增用户</button>
+</form>
+<div class="user">
+	<table class="userGrid">
+		<thead>
+			<tr>
+				<th>序号</th>
+				<th>编号</th>
+				<th>姓名</th>
+				<th>积分</th>
+				<th>日期</th>
+				<th>编辑</th>
+			</tr>
+		</thead>
+		<tbody id="userList">
+			
+		</tbody>
+	</table>
+</div>
+<div class="addUser hide">
+	<form id="userForm">
+		<label>会员编号：<input type="number" id="code" /></label>
+		<label>会员姓名：<input type="username" id="username" /></label>
+		<label style="text-align: center;">
+			<button type="submit">新增</button>&nbsp;&nbsp;&nbsp;
+			<button type="button" id="addUserClose">取消</button>
+		</label>
+	</form>
+</div>
+
+<div class="pointList ">
+	<div style="text-align: center;padding: 10px 0;">
+		会员:<span id="pointUser"></span>[<span id="pointCode"></span>]，总积分<span id="pointAll"></span>
+	</div>
+	<form id="addPoint" style="padding: 10px 0;text-align: center;">
+		<input type="number" id="point" />
+		<input type="hidden" id="userid" />
+		<button type="submit">增加</button>
+	</form>
+	<tt class="pointListClose">+</tt>
+	<table class="pointGrid">
+		<thead>
+			<tr>
+				<th>序号</th>
+				<th>积分</th>
+				<th>日期</th>
+				<!--th>编辑</th-->
+			</tr>
+		</thead>
+		<tbody id="pointList">
+			
+		</tbody>
+	</table>
+</div>
+
+
+</div>
+<div class="mask hide"></div>
+<div class="prompt"></div>
+<% include ../common/footer.ejs %>

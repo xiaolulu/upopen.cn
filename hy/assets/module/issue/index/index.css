@@ -1,0 +1,100 @@
+input{
+	height: 28px;
+	width: 200px;
+	line-height: 28px;
+	padding: 0 5px;
+}
+
+button{
+	height: 32px;
+}
+
+table{
+	border: 1px solid #efefef;
+}
+
+td{
+	border: 1px solid #efefef;
+}
+
+table thead{
+	background-image: -webkit-linear-gradient(top, #fff 0, #f2f2f2 100%);
+	background-image: -o-linear-gradient(top, #fff 0, #f2f2f2 100%);
+	background-image: linear-gradient(to bottom, #fff 0, #f2f2f2 100%);
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+	border-bottom: 1px solid #d4d4d4;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,0.065);
+}
+
+.addUser{
+	width: 400px;
+	background: #fff;
+	position: absolute;
+	height: 140px;
+	padding: 30px 0;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -100px;
+	border: 5px solid #333;
+	z-index: 10;
+}	
+
+.addUser label{
+	display: block;
+	padding: 0 40px;
+	margin: 10px;
+}
+
+.pointList{
+	width: 400px;
+	background: #fff;
+	position: absolute;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	height: 400px;
+	top: 50%;
+	left: 50%;
+	margin-left: -200px;
+	margin-top: -200px;
+	border: 5px solid #333;
+	z-index: 10;
+}
+
+.pointListClose{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 20px;
+	height: 20px;
+	font-size: 30px;
+	cursor: pointer;
+  	transform: rotate(45deg);
+}
+
+.mask{
+	width: 100%;
+	height: 100%;
+	background: rgba( 255,255,255,.5 );
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.prompt{
+	width: 200px;
+	height: 30px;
+	line-height: 30px;
+	background: #f00;
+	text-align: center;
+	top: 0;
+	position: fixed;
+	left: 50%;
+	margin-left: -100px;
+	z-index: 99;
+	color: #fff;
+	display: none;
+}
+
