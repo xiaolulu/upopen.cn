@@ -1,0 +1,26 @@
+{
+  "name": "upopen",
+  "version": "1.0.0",
+  "description": "this is upopen's web server",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaolulu/upopen.git"
+  },
+  "keywords": [
+    "upopen"
+  ],
+  "author": "jxiao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaolulu/upopen/issues"
+  },
+  "homepage": "https://github.com/xiaolulu/upopen#readme",
+  "dependencies": {
+    "ejs": "^2.3.4",
+    "express": "^4.13.3"
+  }
+}
